@@ -1,4 +1,4 @@
-# Impiccato - Linguaggio Java (Hangman Game)
+# Hangman game - Java Language
 
 A text-based Hangman game written in Java, designed to be run and played entirely inside the terminal using a Client-Server architecture.
 
