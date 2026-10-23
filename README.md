@@ -9,23 +9,23 @@ A text-based Hangman game written in Java, designed to be run and played entirel
 This project implements a classic Hangman game. It features **no graphical user interface (GUI)** and runs completely within the command line. The server handles the game logic and picks the secret word, while the client allows the player to connect and **guess individual letters or the entire word**. 
 
 ### Repository Structure
-* **ServerImpiccato.java**: Manages the game logic and secret words.
-* **ClientImpiccato.java**: Terminal user interface for the player.
-* **parole.txt**: Text file containing the word dictionary. **You can freely modify this file** to add, remove, or change the words used in the game.
+* **HangmanServer.java**: Manages the game logic and secret words.
+* **HangmanClient.java**: Terminal user interface for the player.
+* **word.txt**: Text file containing the word dictionary. **You can freely modify this file** to add, remove, or change the words used in the game.
 
 ### How to Run
 
 1. **Compile the source files:**
    ```bash
-   javac ServerImpiccato.java ClientImpiccato.java
+   javac HangmanServer.java HangmanClient.java
    ```
 2. **Start the Server first:**
    ```bash
-   java ServerImpiccato
+   java HangmanServer
    ```
 3. **Open a new terminal window and start the Client:**
    ```bash
-   java ClientImpiccato
+   java HangmanClient
    ```
 
 ### ⚠️ Important Notes & Troubleshooting
@@ -39,23 +39,23 @@ This project implements a classic Hangman game. It features **no graphical user 
 Questo progetto implementa il classico gioco dell'impiccato. Il gioco **non ha interfaccia grafica** ed è eseguito interamente all'interno del terminale. Il server gestisce la logica di gioco e seleziona la parola segreta, mentre il client permette al giocatore di connettersi e **tentare di indovinare sia le singole lettere che la parola completa**.
 
 ### Struttura del Progetto
-* **ServerImpiccato.java**: Gestisce la logica di gioco e le parole segrete.
-* **ClientImpiccato.java**: Interfaccia utente nel terminale per il giocatore.
-* **parole.txt**: File di testo contenente il dizionario delle parole. **È possibile modificare liberamente questo file** per aggiungere, rimuovere o cambiare le parole usate nel gioco.
+* **HangmanServer.java**: Gestisce la logica di gioco e le parole segrete.
+* **HangmanClient.java**: Interfaccia utente nel terminale per il giocatore.
+* **word.txt**: File di testo contenente il dizionario delle parole. **È possibile modificare liberamente questo file** per aggiungere, rimuovere o cambiare le parole usate nel gioco.
 
 ### Come Avviare il Gioco
 
 1. **Compila i file sorgenti:**
    ```bash
-   javac ServerImpiccato.java ClientImpiccato.java
+   javac HangmanServer.java HangmanClient.java
    ```
 2. **Avvia prima il Server:**
    ```bash
-   java ServerImpiccato
+   java HangmanServer
    ```
 3. **Apri una nuova finestra del terminale e avvia il Client:**
    ```bash
-   java ClientImpiccato
+   java HangmanClient
    ```
 
 ### ⚠️ Note Importanti sul Funzionamento
